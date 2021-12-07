@@ -12,6 +12,9 @@ div {
 .margin-b-1 {
     margin-bottom: 1rem !important;
 }
+.hidden-for-all {
+    display: none !important;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
