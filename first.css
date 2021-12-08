@@ -22,6 +22,17 @@ div {
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
     border-radius: 8px;
 }
+.main-container-canvas {
+    min-height: 40rem;
+}
+.sticky-action-bar-bottom-container {
+    background: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
