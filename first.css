@@ -25,13 +25,17 @@ div {
 .main-container-canvas {
     min-height: 40rem;
 }
-.sticky-action-bar-bottom-container {
+div#main-canvas-footer {
     background: #fff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     position: sticky;
     left: 0;
     bottom: 0;
+    border-top: 1px solid #dadada;
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 4px 0px inset;
+}
+.sticky-action-bar-bottom-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 @media (max-width: 420px) {
     h3#page_title_text {
