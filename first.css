@@ -25,6 +25,9 @@ div {
 .main-container-canvas {
     min-height: 40rem;
 }
+div#main-canvas-body {
+    padding-bottom: 2rem;
+}
 div#main-canvas-footer {
     background: #fff;
     position: sticky;
