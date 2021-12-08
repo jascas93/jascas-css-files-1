@@ -60,6 +60,20 @@ div#main-canvas-footer {
     background-size: 2rem;
     background-position: 50%;
 }
+input#floatingInput {
+    background: #F5F5F5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #f26b00;
+}
+.form-floating>label {
+    color: rgba(0,0,0,.6);
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
