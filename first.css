@@ -42,6 +42,7 @@ div#main-canvas-footer {
 }
 .accordion-button:not(.collapsed) {
   color: #f26b00;
+  background-color: #ffecdd;
 }
 @media (max-width: 420px) {
     h3#page_title_text {
