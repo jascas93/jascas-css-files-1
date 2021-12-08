@@ -40,6 +40,9 @@ div#main-canvas-footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.accordion-body {
+    padding: 1rem 1.25rem;
+}
 .accordion-button:not(.collapsed) {
   color: #f26b00;
   background-color: #ffecdd;
