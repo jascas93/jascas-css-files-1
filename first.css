@@ -63,6 +63,9 @@ div#main-canvas-footer {
     .sticky-buttons-shift-to-small {
         flex-flow: column-reverse;
     }
+    div#sticky-back-button {
+        padding-bottom: 0;
+    }
 }
 @media (min-width: 768px) {
     .page_title_hdr {
