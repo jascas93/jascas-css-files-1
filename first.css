@@ -40,6 +40,9 @@ div#main-canvas-footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.accordion-button:not(.collapsed) {
+  color: #f26b00;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
