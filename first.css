@@ -47,7 +47,7 @@ div#main-canvas-footer {
 }
 @media (max-width: 464px) {
     .sticky-buttons-shift-to-small {
-        flex-flow: column-column-reverse;
+        flex-flow: column-reverse;
     }
 }
 @media (min-width: 768px) {
