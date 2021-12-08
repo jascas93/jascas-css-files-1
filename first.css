@@ -45,6 +45,11 @@ div#main-canvas-footer {
         font-size: calc(1rem + .6vw) !important;
     }
 }
+@media (max-width: 464px) {
+    .sticky-buttons-shift-to-small {
+        flex-flow: column-column-reverse;
+    }
+}
 @media (min-width: 768px) {
     .page_title_hdr {
         flex-flow: row !important;
