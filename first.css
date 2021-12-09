@@ -136,6 +136,7 @@ input#floatingInput {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #f26b00;
+    padding-right: calc(1.5em + 0.75rem);
 }
 .form-floating>label {
     color: rgba(0,0,0,.6);
