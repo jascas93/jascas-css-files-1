@@ -9,6 +9,16 @@ div {
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,1) !important;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+    border-radius: 5px;
+    padding: 0.85rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .margin-b-1 {
     margin-bottom: 1rem !important;
 }
