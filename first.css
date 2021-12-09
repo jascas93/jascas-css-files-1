@@ -45,6 +45,11 @@ div {
     font-size: 22px;
     margin-right: 0.25rem;
 }
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #FFAC71;
+    border-color: #FFAC71;
+}
 .margin-b-1 {
     margin-bottom: 1rem !important;
 }
