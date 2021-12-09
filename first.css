@@ -21,8 +21,20 @@ div {
 }
 .btn-primary:hover {
     color: #fff;
+    background-color: #d95700;
+    border-color: #d95700;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #d95700;
+    border-color: #d95700;
+    box-shadow: 0 0 0 0.25rem #FFC396;
+}
+.btn-primary:active {
+    color: #fff;
     background-color: #fe7b10;
     border-color: #fe7b10;
+    box-shadow: 0 0 0 0.25rem #FFC396;
 }
 .btn-with-icon {
     display: flex;
