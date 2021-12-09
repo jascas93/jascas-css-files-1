@@ -60,6 +60,9 @@ div {
     font-weight: 500;
     text-transform: uppercase;
 }
+.sticky-buttons-shift-to-small>.btn {
+    margin: 0;
+}
 .form-check-input:checked {
     background-color: #019d9d;
     border-color: #019d9d;
