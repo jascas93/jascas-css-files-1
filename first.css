@@ -140,7 +140,7 @@ input#floatingInput {
 }
 .form-control:disabled, .form-control[readonly] {
     background-color: #dadada !important;
-    opacity: 0.9;
+    opacity: 1;
 }
 .form-floating>label {
     color: rgba(0,0,0,.6);
