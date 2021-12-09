@@ -24,6 +24,15 @@ div {
     background-color: #fe7b10;
     border-color: #fe7b10;
 }
+.btn-with-icon {
+    display: flex;
+    align-items: center;
+    line-height: initial;
+}
+.btn-icon {
+    font-size: 22px;
+    margin-right: 0.25rem;
+}
 .margin-b-1 {
     margin-bottom: 1rem !important;
 }
