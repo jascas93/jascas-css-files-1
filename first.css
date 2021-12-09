@@ -50,6 +50,13 @@ div {
     background-color: #FFAC71;
     border-color: #FFAC71;
 }
+.form-check-input:checked {
+    background-color: #019d9d;
+    border-color: #019d9d;
+}
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem #b2e0dc;
+}
 .margin-b-1 {
     margin-bottom: 1rem !important;
 }
