@@ -162,6 +162,10 @@ input#floatingInput {
     .sticky-buttons-shift-to-small {
         flex-flow: column-reverse;
     }
+    a#back_button {
+        padding: 0;
+        height: auto;
+    }
     div#sticky-back-button {
         padding-bottom: 0 !important;
     }
