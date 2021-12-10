@@ -160,7 +160,7 @@ input#floatingInput {
     border: none;
 }
 .image-picker-placeholder {
-    height: 100px;
+    height: 150px;
 }
 @media (max-width: 420px) {
     h3#page_title_text {
