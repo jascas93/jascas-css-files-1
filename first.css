@@ -153,6 +153,15 @@ input#floatingInput {
 .form-floating>label {
     color: rgba(0,0,0,.6);
 }
+.card.image-picker {
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+}
+.image-picker-placeholder {
+    height: 100px;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
