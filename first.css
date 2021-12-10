@@ -65,6 +65,11 @@ div {
     font-weight: 500;
     text-transform: uppercase;
 }
+.btn-group-flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .sticky-buttons-shift-to-small>.btn {
     margin: 0.5rem;
 }
