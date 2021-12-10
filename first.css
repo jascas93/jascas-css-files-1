@@ -9,6 +9,9 @@ div {
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,1) !important;
 }
+.fade {
+    transition: opacity .75s linear;
+}
 .steps-progress {
     height: 5px;
     font-size: 1rem;
