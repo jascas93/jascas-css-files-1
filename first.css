@@ -162,6 +162,16 @@ input#floatingInput {
 .image-picker-placeholder {
     height: 150px;
 }
+label.btn.btn-outline-primary.fuel-level-buttons {
+    border-color: #fe7b10;
+    color: #fe7b10;
+    font-weight: 500;
+    height: inherit;
+}
+btn-check:checked+.btn.btn-outline-primary.fuel-level-buttons {
+    background-color: #fe7b10;
+    color: #fff;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
