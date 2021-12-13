@@ -187,23 +187,17 @@ label.btn.btn-outline-primary.fuel-level-buttons {
 }
 /* Status Buttons */
 label.btn.btn-outline-primary.status-buttons {
-    border-color: #aeaeae;
-    color: #797979;
     font-size: 0.9375rem;
     height: inherit;
     min-width: 70px;
     text-transform: uppercase;
-    font-weight: 500;
     letter-spacing: 0.25px;
     line-height: initial;
 }
-.btn-check:checked+.btn-outline-primary.status-buttons:nth-child(even) {
-    background-color: rgb(6,172,63);
-    color: #fff;
-}
-.btn-check:checked+.btn-outline-primary.status-buttons:nth-child(odd) {
-    background-color: rgb(255, 56, 92);
-    color: #fff;
+label.btn.btn-outline-primary.status-buttons:not(.btn-check) {
+    border-color: #aeaeae !important;
+    color: #aeaeae !important;
+    font-weight: 400 !important;
 }
 .btn.btn-outline-primary.fuel-level-buttons:hover {
     color: #fff;
