@@ -167,6 +167,8 @@ label.btn.btn-outline-primary.fuel-level-buttons {
     color: #fe7b10;
     font-weight: 500;
     height: inherit;
+    padding-left: 0;
+    padding-right: 0;
 }
 btn-check:checked+.btn.btn-outline-primary.fuel-level-buttons {
     background-color: #fe7b10;
