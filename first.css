@@ -209,12 +209,12 @@ label.btn.btn-outline-primary.status-buttons {
     border-color: #f5c2c7;
     font-weight: 600;
 }
-.btn.btn-outline-primary.fuel-level-buttons:hover {
+.btn.btn-outline-primary.status-buttons:hover {
     color: #fff;
     background-color: #fe7b10;
     border-color: #fe7b10;
 }
-.btn.btn-outline-primary.fuel-level-buttons:active {
+.btn.btn-outline-primary.status-buttons:active {
     color: #fff;
     background-color: #fe7b10;
     border-color: #fe7b10;
