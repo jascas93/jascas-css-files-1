@@ -172,6 +172,11 @@ btn-check:checked+.btn.btn-outline-primary.fuel-level-buttons {
     background-color: #fe7b10;
     color: #fff;
 }
+.btn.btn-outline-primary.fuel-level-buttons:hover {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
