@@ -217,6 +217,9 @@ label.btn.btn-outline-primary.status-buttons {
     border-top: 0;
     border-color: #dadada;
 }
+.safety-check-list:nth-of-type(even) {
+  background: #f9f9f9;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
