@@ -195,6 +195,7 @@ label.btn.btn-outline-primary.status-buttons {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.25px;
+    line-height: initial;
 }
 .btn-check:checked+.btn-outline-primary.fuel-level-buttons {
     background-color: #fe7b10;
@@ -210,7 +211,12 @@ label.btn.btn-outline-primary.status-buttons {
     background-color: #fe7b10;
     border-color: #fe7b10;
 }
-
+.safety-check-list {
+    padding: calc(var(--bs-gutter-x) * .5);
+    border: 1px solid;
+    border-top: 0;
+    border-color: #dadada;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
