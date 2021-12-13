@@ -187,6 +187,9 @@ label.btn.btn-outline-primary.fuel-level-buttons {
 }
 /* Status Buttons */
 label.btn.btn-outline-primary.status-buttons {
+    border-color: #aeaeae;
+    color: #aeaeae;
+    font-weight: 400;
     font-size: 0.9375rem;
     height: inherit;
     min-width: 70px;
@@ -194,10 +197,17 @@ label.btn.btn-outline-primary.status-buttons {
     letter-spacing: 0.25px;
     line-height: initial;
 }
-label.btn.btn-outline-primary.status-buttons:not(.btn-check) {
-    border-color: #aeaeae !important;
-    color: #aeaeae !important;
-    font-weight: 400 !important;
+.btn-check:checked+.btn-outline-primary.status-buttons.passBtn {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    font-weight: 600;
+}
+.btn-check:checked+.btn-outline-primary.status-buttons.failBtn {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    font-weight: 600;
 }
 .btn.btn-outline-primary.fuel-level-buttons:hover {
     color: #fff;
