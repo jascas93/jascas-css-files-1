@@ -162,6 +162,7 @@ input#floatingInput {
 .image-picker-placeholder {
     height: 150px;
 }
+/* Fuel Level Buttons */
 label.btn.btn-outline-primary.fuel-level-buttons {
     border-color: #fe7b10;
     color: #fe7b10;
@@ -184,6 +185,32 @@ label.btn.btn-outline-primary.fuel-level-buttons {
     background-color: #fe7b10;
     border-color: #fe7b10;
 }
+/* Status Buttons */
+label.btn.btn-outline-primary.status-buttons {
+    border-color: #aeaeae;
+    color: #797979;
+    font-size: 0.9375rem;
+    height: inherit;
+    min-width: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+.btn-check:checked+.btn-outline-primary.fuel-level-buttons {
+    background-color: #fe7b10;
+    color: #fff;
+}
+.btn.btn-outline-primary.fuel-level-buttons:hover {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
+.btn.btn-outline-primary.fuel-level-buttons:active {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
+
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
