@@ -217,7 +217,7 @@ label.btn.btn-outline-primary.status-buttons {
     border-top: 0;
     border-color: #dadada;
 }
-.safety-check-list:nth-of-type(even) {
+.safety-check-list:nth-of-type(odd) {
   background: #f9f9f9;
 }
 @media (max-width: 420px) {
