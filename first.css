@@ -73,7 +73,7 @@ div {
     align-items: center;
     justify-content: flex-start;
 }
-.sticky-buttons-shift-to-small>.btn {
+.sticky-buttons-shift-to-small>.btn, .btn-grp-shift-to-small>.btn {
     margin: 0.5rem;
 }
 .form-check-input:checked {
