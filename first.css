@@ -237,6 +237,9 @@ label.btn.btn-outline-primary.status-buttons {
     .sticky-buttons-shift-to-small {
         flex-flow: column-reverse;
     }
+    .btn-grp-shift-to-small {
+        flex-flow: column;
+    }
     a#back_button {
         padding: 0;
         height: auto;
