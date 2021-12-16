@@ -228,6 +228,33 @@ label.btn.btn-outline-primary.status-buttons {
 .safety-check-list:nth-of-type(odd) {
   background: #f9f9f9;
 }
+/* Radio Buttons Group */
+label.btn.btn-outline-primary.radio-buttons-group {
+    border-color: #fe7b10;
+    color: #fe7b10;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 0.85rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn-check:checked+.btn-outline-primary.radio-buttons-group {
+    background-color: #fe7b10;
+    color: #fff;
+}
+.btn.btn-outline-primary.radio-buttons-group:hover {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
+.btn.btn-outline-primary.radio-buttons-group:active {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
 @media (max-width: 420px) {
     h3#page_title_text {
         font-size: calc(1rem + .6vw) !important;
