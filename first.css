@@ -256,6 +256,7 @@ label.btn.btn-outline-primary.radio-buttons-group {
     border-color: #fe7b10;
 }
 /* Shockwave */
+/*
 @mixin afterBg {
   content: '';
   position: absolute;
@@ -264,17 +265,31 @@ label.btn.btn-outline-primary.radio-buttons-group {
   bottom: 0;
   right: 0;
   border-radius: 50%;
-}
+}*/
 .btn--shockwave.is-active {
     animation: shockwaveJump 1s ease-out infinite;
 }
 .btn--shockwave.is-active:after {
-    @include afterBg;
+    /*@include afterBg;*/
     animation: shockwave 1s .65s ease-out infinite;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
 }
 .btn--shockwave.is-active:before {
-    @include afterBg;
+    /*@include afterBg;*/
     animation: shockwave 1s .5s ease-out infinite;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
 }
 @keyframes shockwaveJump {
   0% {
