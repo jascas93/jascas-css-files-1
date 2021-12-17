@@ -256,6 +256,15 @@ label.btn.btn-outline-primary.radio-buttons-group {
     border-color: #fe7b10;
 }
 /* Shockwave */
+@mixin afterBg {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+}
 .btn--shockwave.is-active {
   animation: shockwaveJump 1s ease-out infinite;
 
