@@ -266,19 +266,16 @@ label.btn.btn-outline-primary.radio-buttons-group {
   border-radius: 50%;
 }
 .btn--shockwave.is-active {
-  animation: shockwaveJump 1s ease-out infinite;
-
-  &:after {
+    animation: shockwaveJump 1s ease-out infinite;
+}
+.btn--shockwave.is-active:after {
     @include afterBg;
     animation: shockwave 1s .65s ease-out infinite;
-  }
-
-  &:before {
+}
+.btn--shockwave.is-active:before {
     @include afterBg;
     animation: shockwave 1s .5s ease-out infinite;
-  }
 }
-
 @keyframes shockwaveJump {
   0% {
     transform: scale(1);
