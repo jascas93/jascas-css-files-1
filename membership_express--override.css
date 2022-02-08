@@ -3,12 +3,17 @@ div {
 }
 .btn {
     height: auto;
+    padding: 0.875rem 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 8px;
+    line-height: initial;
 }
 .btn-with-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: initial;
 }
 .btn-icon-left {
     font-size: 22px;
@@ -17,16 +22,33 @@ div {
 .btn-not-allowed {
     cursor: not-allowed;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d95700;
+    border-color: #d95700;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #d95700;
+    border-color: #d95700;
+    box-shadow: 0 0 0 0.25rem #FFC396;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: #fe7b10;
+    border-color: #fe7b10;
+    box-shadow: 0 0 0 0.25rem #FFC396;
+}
 .btn-primary-outlined {
     color: #fe7b10;
     background-color: #fff7f1;
     border: 1px solid;
     border-color: #fe7b10;
-    border-radius: 8px;
-    padding: 0.875rem 1.75rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-transform: uppercase;
 }
 .btn-primary-outlined:hover {
     color: #f26b00;
