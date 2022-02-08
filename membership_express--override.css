@@ -4,6 +4,15 @@ div {
 .btn {
     height: auto;
 }
+.btn-with-icon {
+    display: flex;
+    align-items: center;
+    line-height: initial;
+}
+.btn-icon-left {
+    font-size: 22px;
+    margin-right: 0.25rem;
+}
 .btn-primary-outlined {
     color: #fe7b10;
     background-color: #fff7f1;
