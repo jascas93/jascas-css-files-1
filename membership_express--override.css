@@ -25,16 +25,19 @@ div {
     text-transform: uppercase;
 }
 .btn-primary-outlined:hover {
+    color: #f26b00;
     background-color: #FFECDD;
     border-color: #d95700;
     box-shadow: rgb(0 0 0 / 4%) 0px 3px 5px;
 }
 .btn-primary-outlined:focus {
+    color: #f26b00;
     background-color: #FFECDD;
     border-color: #d95700;
     box-shadow: 0 0 0 0.25rem #FFC396;
 }
 .btn-primary-outlined:active {
+    color: #f26b00;
     background-color: #FFECDD;
     border-color: #d95700;
     box-shadow: 0 0 0 0.25rem #FFC396;
