@@ -105,19 +105,19 @@
 }
 .btn-secondary-outlined:hover {
     color: #242424;
-    background-color: #f0f0f0;
+    background-color: #dadada;
     border-color: #242424;
     box-shadow: rgb(0 0 0 / 4%) 0px 3px 5px;
 }
 .btn-secondary-outlined:focus {
     color: #242424;
-    background-color: #f0f0f0;
+    background-color: #dadada;
     border-color: #242424;
     box-shadow: 0 0 0 0.25rem #aeaeae;
 }
 .btn-secondary-outlined:active {
     color: #242424;
-    background-color: #f0f0f0;
+    background-color: #dadada;
     border-color: #242424;
     box-shadow: 0 0 0 0.25rem #aeaeae;
 }
