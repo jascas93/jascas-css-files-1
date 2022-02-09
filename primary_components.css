@@ -1,5 +1,6 @@
 /* BUTTONS ******************************************/
 .btn {
+    width: fit-content;
     height: auto;
     padding: 0.875rem 1.75rem;
     font-size: 0.875rem;
