@@ -6,8 +6,11 @@ body {
 .primary-navbar {
     background-color: #fe7b10 !important;
 }
-.primary-navbar .navbar-nav .nav-link {
-    color: #fff !important;
+.primary-navbar .nav-link {
+    color: #fff;
+}
+.primary-navbar .nav-link.disabled {
+    opacity: 0.65;
 }
 .bg-dark {
     background-color: #242424 !important;
