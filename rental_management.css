@@ -20,7 +20,8 @@ body {
     display: flex;
     align-items: center;
     width: auto;
-    font-weight: 900; 
+    font-weight: 900;
+    border: 0;
 }
 .bg-dark {
     background-color: #242424 !important;
