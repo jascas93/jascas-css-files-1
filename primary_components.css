@@ -169,9 +169,8 @@ input#floatingInput {
     border-bottom: 1px solid #f26b00;
     padding-right: calc(1.5em + 0.75rem);
 }
-.form-control:disabled, .form-control[readonly] {
-    background-color: #dadada !important;
-    opacity: 1;
+.form-control:disabled, .form-control[readonly], .form-select:disabled {
+    cursor: not-allowed;
 }
 .form-floating>label {
     color: rgba(0,0,0,.6);
