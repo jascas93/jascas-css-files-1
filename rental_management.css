@@ -12,6 +12,15 @@ body {
 .primary-navbar .nav-link.disabled {
     opacity: 0.65;
 }
+.avatar-menu {
+    background: #fff;
+    color: #303030;
+    border-radius: 20px;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
 .bg-dark {
     background-color: #242424 !important;
 }
