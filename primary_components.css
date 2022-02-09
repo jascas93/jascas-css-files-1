@@ -15,11 +15,11 @@
     justify-content: center;
 }
 .btn-icon-left {
-    font-size: 22px;
+    font-size: 22px !important;
     margin-right: 0.25rem;
 }
 .btn-icon-right {
-    font-size: 22px;
+    font-size: 22px !important;
     margin-left: 0.25rem;
 }
 .btn-not-allowed {
@@ -84,17 +84,16 @@
 }
 .btn-primary-link:hover {
     color: #f26b00;
+}
+.btn-primary-link:hover>span.btn-link-text {
     text-decoration: underline;
-    box-shadow: rgb(0 0 0 / 4%) 0px 3px 5px;
 }
 .btn-primary-link:focus {
     color: #f26b00;
-    text-decoration: underline;
     box-shadow: 0 0 0 0.25rem #FFC396;
 }
 .btn-primary-link:active {
     color: #f26b00;
-    text-decoration: underline;
     box-shadow: 0 0 0 0.25rem #FFC396;
 }
 /***** END */
