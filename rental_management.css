@@ -52,6 +52,9 @@ body {
     .hidden-for-md {
         display: none !important;
     }
+    .primary-navbar {
+        background-color: #242424 !important;
+    }
 }
 @media (min-width: 992px) {
     .visible-for-large {
