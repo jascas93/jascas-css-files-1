@@ -199,3 +199,47 @@ input#floatingInput {
 .form-floating>label {
     color: rgba(0,0,0,.6);
 }
+
+/* Tables Resposive ********************/
+@media (max-width: 767px) {
+    table.tbl-responsive {
+        border: 0;
+    }
+    table.tbl-responsive thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table.tbl-responsive tr {
+        border-bottom: 3px solid #ddd;
+        display: grid;
+    }
+    table.tbl-responsive td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 0.9em;
+        text-align: right;
+    }
+    table.tbl-responsive td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+    table.tbl-responsive td:last-child {
+        border-bottom: 0;
+    }
+    table.tbl-responsive tbody tr:nth-child(even) {
+        background-color: #fffaf6;
+    }
+
+    p.table-cell-with-icons {
+        justify-content: flex-end;
+    }
+}
