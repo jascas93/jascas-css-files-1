@@ -49,7 +49,7 @@ body {
     .visible-for-md {
         display: block !important;
     }
-    .hidden-for-lg {
+    .hidden-for-md {
         display: none !important;
     }
 }
