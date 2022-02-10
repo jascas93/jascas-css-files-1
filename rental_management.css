@@ -46,4 +46,18 @@ body {
     #page_title_text {
         text-align: left !important;
     }
+    .visible-for-md {
+        display: block !important;
+    }
+    .hidden-for-lg {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .visible-for-large {
+        display: block !important;
+    }
+    .hidden-for-large {
+        display: none !important;
+    }
 }
