@@ -199,7 +199,12 @@ input#floatingInput {
 .form-floating>label {
     color: rgba(0,0,0,.6);
 }
-
+.rounded-pill-outlined {
+    background-color: rgba(25,135,84,0.15) !important;
+    border: 1px solid rgba(25,135,84,0.6) !important;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
 /* Tables Resposive ********************/
 @media (max-width: 767px) {
     table.tbl-responsive {
