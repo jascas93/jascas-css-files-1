@@ -1,8 +1,14 @@
-// First override some or all individual color variables
+// modify any default color variables
 $primary: #25408f;
 
-// Then add them to your custom theme-colors map, together with any additional colors you might need
-$theme-colors: (
-  primary: $primary
-  // add any additional color below
+// load the _variables.scss file
+@import "variables";
+
+// add any custom colors by creating your own map and merging with the (now-defined) $theme-colors map
+// Create your own map
+$custom-colors: (
+    "current_orange": #fe7b10
 );
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
