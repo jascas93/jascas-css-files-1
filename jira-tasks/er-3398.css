@@ -34,3 +34,6 @@
 .arrow-forward-wrapper {
     margin: 0 3rem;
 }
+.btn-icon-right.small {
+    font-size: 0.875rem !important;
+}
