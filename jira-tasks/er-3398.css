@@ -10,8 +10,7 @@
 .content-block {
     margin-top: 2rem;
     box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-    padding-top: calc(var(--bs-gutter-x) * .5);
-    padding-bottom: calc(var(--bs-gutter-x) * .5);
+    padding: 1rem 0;
     background-color: #fff;
     border-radius: 8px;
 }
