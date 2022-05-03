@@ -31,6 +31,13 @@
     margin-bottom: 0;
     font-weight: 600;
 }
+.content-label-details-note {
+    margin-bottom: 0;
+    color: #898989;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
 .arrow-forward-wrapper {
     margin: 0 3rem;
 }
