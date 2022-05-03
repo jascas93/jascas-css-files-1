@@ -8,3 +8,10 @@
     background-color: #fff;
     border-radius: 8px;
 }
+.content-label {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #81909a;
+    margin-bottom: 0;
+}
