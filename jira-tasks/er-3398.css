@@ -9,6 +9,10 @@
     background-color: #fff;
     border-radius: 8px;
 }
+.content-header {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
 .content-label {
     text-transform: uppercase;
     font-size: 0.875rem;
