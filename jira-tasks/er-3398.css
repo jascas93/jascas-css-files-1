@@ -1,6 +1,9 @@
 .bg-light-color {
     background-color: #fafafa;
 }
+p {
+    margin: 0;
+}
 .page-header-text {
     font-weight: 600;
     color: #3a3a3a;
