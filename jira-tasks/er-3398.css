@@ -1,3 +1,6 @@
+.bg-light-color {
+    background-color: #fafafa;
+}
 .content-block {
     box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px;
     padding-top: calc(var(--bs-gutter-x) * .5);
