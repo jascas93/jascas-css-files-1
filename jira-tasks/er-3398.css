@@ -1,9 +1,6 @@
 .bg-light-color {
     background-color: #fafafa;
 }
-p {
-    margin: 0;
-}
 .page-header-text {
     font-weight: 600;
     color: #3a3a3a;
@@ -30,4 +27,8 @@ p {
     font-weight: 500;
     color: #81909a;
     margin-bottom: 0;
+}
+.content-label-details {
+    margin-bottom: 0;
+    font-weight: 600;
 }
