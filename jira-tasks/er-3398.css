@@ -1,6 +1,12 @@
 .bg-light-color {
     background-color: #fafafa;
 }
+.page-header-text {
+    font-weight: 600;
+    color: #3a3a3a;
+    letter-spacing: 0.35px;
+    margin: 1rem 0;
+}
 .content-block {
     margin-top: 2rem;
     box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
