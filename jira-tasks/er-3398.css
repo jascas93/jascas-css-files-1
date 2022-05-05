@@ -63,6 +63,9 @@ p.content-label-details.text-danger {
 .visible-for-lgd {
     display: none;
 }
+.visible-for-mdd {
+    display: none;
+}
 
 @media (min-width: 992px) {
     .visible-for-lgd {
@@ -70,5 +73,7 @@ p.content-label-details.text-danger {
     }
 }
 @media (min-width: 768px) {
-
+    .visible-for-mdd {
+        display: block !important;
+    }
 }
