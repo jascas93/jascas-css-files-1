@@ -49,6 +49,9 @@ p.content-label-details.text-danger {
 .arrow-forward-wrapper {
     margin: 0 3rem;
 }
+.arrow-downward-wrapper {
+    margin: 3rem 0;
+}
 .btn-icon-right.small {
     font-size: 0.875rem !important;
 }
