@@ -38,6 +38,9 @@
     font-weight: 300;
     margin-bottom: 0.5rem;
 }
+p.content-label-details.text-danger {
+    font-weight: 500;
+}
 .inner-content-separator {
     margin-top: 1.5rem;
     border-top: 2px solid #efefef;
