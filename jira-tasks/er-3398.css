@@ -104,6 +104,6 @@ p.content-label-details.text-danger {
 @media (max-width: 369px) {
     .shift-contact-downward {
         flex: 0 0 auto;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
     }
 }
