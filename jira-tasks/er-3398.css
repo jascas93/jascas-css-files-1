@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    flex-flow: column;
+    align-items: flex-start;
 }
 .content-block {
     margin-top: 2rem;
@@ -94,5 +96,8 @@ p.content-label-details.text-danger {
     }
 }
 @media (min-width: 568px) {
-
+    .page-header-text {
+        flex-flow: initial;
+        align-items: center;
+    }
 }
