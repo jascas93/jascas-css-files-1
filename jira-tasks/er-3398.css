@@ -101,3 +101,9 @@ p.content-label-details.text-danger {
         align-items: center;
     }
 }
+@media (max-width: 369px) {
+    .shift-contact-downward {
+        flex: 0 0 auto;
+        margin-bottom: 0.25rem;
+    }
+}
