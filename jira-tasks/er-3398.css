@@ -58,7 +58,7 @@ p.content-label-details.text-danger {
 }
 .side-content-block {
     padding: 1rem 0;
-    margin-left: 1rem;
+    margin-top: 2rem;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px;
@@ -76,6 +76,10 @@ p.content-label-details.text-danger {
 @media (min-width: 992px) {
     .visible-for-lgd {
         display: block !important;
+    }
+    .side-content-block {
+        margin-left: 1rem;
+        margin-top: 0;
     }
 }
 @media (min-width: 768px) {
