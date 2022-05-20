@@ -70,6 +70,8 @@ p.content-label-details.text-danger {
 }
 .btn-h-52 {
     height: 52px;
+    align-items: center;
+    display: flex;
 }
 
 .visible-for-lgd {
