@@ -68,6 +68,9 @@ p.content-label-details.text-danger {
     border-radius: 8px;
     box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px;
 }
+.btn-h-52 {
+    height: 52px;
+}
 
 .visible-for-lgd {
     display: none;
