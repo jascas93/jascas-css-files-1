@@ -147,6 +147,35 @@ body {
     box-shadow: 0 0 0 0.25rem #FFC396;
 }
 /**/
+.btn-primary-outlined-slim {
+    color: #fe7b10;
+    background-color: rgba(255, 247, 241, 0.1);
+    border: 1px solid;
+    border-color: #fe7b10;
+    padding: 0.5rem 1rem;
+}
+.btn-primary-outlined-slim:hover {
+    color: #f26b00;
+    background-color: #fff7f1;
+    border-color: #d95700;
+    padding: 0.5rem 1rem;
+    box-shadow: rgb(0 0 0 / 4%) 0px 3px 5px;
+}
+.btn-primary-outlined-slim:focus {
+    color: #f26b00;
+    background-color: #fff7f1;
+    border-color: #d95700;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 0 0.25rem #FFC396;
+}
+.btn-primary-outlined-slim:active {
+    color: #f26b00;
+    background-color: #fff7f1;
+    border-color: #d95700;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 0 0.25rem #FFC396;
+}
+/**/
 .btn-primary-link {
     color: #fe7b10;
     background-color: transparent;
