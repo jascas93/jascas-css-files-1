@@ -217,6 +217,28 @@ body {
     border-color: #242424;
     box-shadow: 0 0 0 0.25rem #aeaeae;
 }
+/**/
+.btn-secondary-link {
+    color: #242424;
+    background-color: transparent;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-secondary-link:hover {
+    color: #242424;
+}
+.btn-secondary-link:hover>span.btn-link-text {
+    text-decoration: underline;
+}
+.btn-secondary-link:focus {
+    color: #242424;
+    box-shadow: 0 0 0 0.25rem #aeaeae;
+}
+.btn-secondary-link:active {
+    color: #242424;
+    box-shadow: 0 0 0 0.25rem #aeaeae;
+}
 /***** END */
 
 .sticky-buttons-shift-to-small>.btn, .btn-grp-shift-to-small>.btn {
