@@ -98,7 +98,7 @@ body {
     cursor: not-allowed;
 }
 .btn-slim {
-    padding: 0.5rem 1rem !important;
+    padding: 0.5rem 1rem;
 }
 
 /* Primary Button ************************/
