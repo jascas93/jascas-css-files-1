@@ -96,6 +96,8 @@ body {
 }
 .btn-not-allowed {
     cursor: not-allowed;
+    color: inherit;
+    text-decoration: none;
 }
 .btn-slim {
     padding: 0.5rem 1rem;
