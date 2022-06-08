@@ -100,7 +100,11 @@ body {
 .btn-slim {
     padding: 0.5rem 1rem;
 }
-
+.btn-h-52 {
+    height: 52px;
+    align-items: center;
+    display: flex;
+}
 /* Primary Button ************************/
 .btn-primary {
     color: #fff;
