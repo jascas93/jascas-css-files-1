@@ -75,9 +75,6 @@ div#page_loading {
     background-color: #fe7b10;
     z-index: 999999;
 }
-#page_loading_image {
-    z-index: 100;
-}
 .pl-blocks {
     height: 100vh;
     display: flex;
