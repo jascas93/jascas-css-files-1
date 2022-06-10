@@ -97,19 +97,19 @@ div#page_loading {
 .pl-orange {
     --bg: linear-gradient(-50deg, #fbab7e 0, #f7ce68 100%);
     margin-right: var(--hm);
-    animation: attract-pl-orange var(--animation);
+    animation: attract-orange var(--animation);
 }
 .pl-blue {
     --bg: linear-gradient(50deg, #00bfd5 0, #c5f5ff 100%);
     margin-left: var(--hm);
-    animation: attract-pl-blue var(--animation);
+    animation: attract-blue var(--animation);
 }
-@keyframes pl-attract-orange {
+@keyframes attract-orange {
     to {
         transform: translateX(calc(var(--sz) + calc(var(--hm) / 4)));
     }
 }
-@keyframes pl-attract-blue {
+@keyframes attract-blue {
     to {
         transform: translateX(calc(var(--sz) * -1 - calc(var(--hm) / 4)));
     }
