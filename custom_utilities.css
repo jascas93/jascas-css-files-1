@@ -62,7 +62,7 @@
 }
 /* END */
 /* PAGE LOADING SPINNER */
-#page_loading {
+div#page_loading {
     position: fixed;
     display: flex;
     justify-content: center;
