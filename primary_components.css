@@ -4,10 +4,10 @@ body {
     font-weight: 400;
 }
 .primary-navbar {
-    background-color: #fe7b10 !important;
+    background-color: #F26B00 !important;
 }
 .primary-navbar .nav-link {
-    color: #fff;
+    color: #FFFFFF;
 }
 .primary-navbar .nav-link.disabled {
     opacity: 0.65;
