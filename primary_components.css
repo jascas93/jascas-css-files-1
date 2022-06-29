@@ -107,6 +107,9 @@ body {
     align-items: center;
     display: flex;
 }
+.btn-no-bg-color {
+    background-color: transparent !important;
+}
 /* Primary Button ************************/
 .btn-primary {
     color: #fff;
