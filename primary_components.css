@@ -337,6 +337,8 @@ body {
 }
 div#main-canvas-body {
     padding-bottom: 2rem;
+    background-color: #efefef;
+    min-height: calc(100vh - 176px);
 }
 div#main-canvas-footer {
     background: #fff;
