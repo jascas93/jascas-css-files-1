@@ -90,6 +90,19 @@ div#main-canvas-footer {
 .lh-initial {
     line-height: initial !important;
 }
+.locale-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    border: 1px solid #484848;
+    border-radius: 20rem;
+    padding: 0.5rem 0.5rem;
+    line-height: initial;
+    font-size: 0.9375rem;
+    width: 85px;
+    justify-content: center;
+}
 .list-group-item.active {
     background-color: #fe7b10;
     border-color: #fe7b10;
