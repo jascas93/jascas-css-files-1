@@ -39,6 +39,25 @@ div#main-canvas-footer {
     font-weight: 900;
     border: 0;
     font-size: 1.125rem;
+    position: relative;
+    line-height: initial;
+}
+.avatar-notifications {
+    display: inline-block;
+    padding: 4px 7px;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 20rem;
+    position: absolute;
+    top: 0;
+    left: 100;
+    background-color: #fe7b10;
+    transform: translate(-50%, -35%) !important;
 }
 .btn-avatar-menu:hover {
     background-color: #dadada
