@@ -10,7 +10,7 @@ div#main-canvas-body {
     padding-bottom: 2rem;
     min-height: calc(100vh - 176px);
 }
-div#main-canvas-body.main {
+div#main-canvas-body.main-site {
     background-color: #efefef;
 }
 div#main-canvas-footer {
