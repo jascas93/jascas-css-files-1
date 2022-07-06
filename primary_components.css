@@ -92,6 +92,9 @@ div#main-canvas-footer {
 .lh-initial {
     line-height: initial !important;
 }
+.mt2rem {
+    margin-top: 2rem !important;
+}
 .locale-btn {
     background-color: rgba(255, 255, 255, 0.1);
     color: #fafafa;
