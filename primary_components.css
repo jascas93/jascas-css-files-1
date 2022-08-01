@@ -26,6 +26,8 @@ div#main-canvas-footer {
 }
 .primary-navbar .nav-link {
     color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .primary-navbar .nav-link.disabled {
     opacity: 0.65;
