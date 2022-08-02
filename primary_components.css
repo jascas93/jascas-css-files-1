@@ -289,6 +289,11 @@ div#main-canvas-footer {
     border: 1px solid;
     border-color: #484848;
 }
+.secondary-outlined-transparent {
+    color: #FCFCFC;
+    background-color: transparent;
+    border-color: #FCFCFC;
+}
 .btn-secondary-outlined:hover {
     color: #242424;
     background-color: #F0F0F0;
